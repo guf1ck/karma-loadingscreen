@@ -7,4 +7,5 @@
 
 # Discord: guf1ck
 
+# Karma Developments Tebex : https://karma-developments.tebex.io
 # Karma Developments Discord: https://discord.gg/ErC9mfYakh
