@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/ico" href="files/favicon.png" />
+    <title>Karma Developments Boilerplate</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="javascript.js" defer></script>
+  </head>
+  <body>
+    <video id="video" autoplay muted loop style="display: none; position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 100%;">
+      <source src="loading_example.mp4" type="video/mp4">
+    </video>
+    <iframe style="display: none;" id="ytIframe" width="1920" height="1080" frameborder="0"></iframe>
+    <div class="MenuBoxWithoutHands">
+      <div class="FuckingButtonListBuddy" id="FuckingButtonListBuddy"></div>
+      <div class="bottomSide">
+        <div class="KarmaCoolLoadingBox">
+          <img src="" alt="" class="Logo" id="Logo" />
+          <div class="bar">
+            <svg
+              id="bar1"
+              class="bar1"
+              style="display: flex"
+              xmlns="http://www.w3.org/2000/svg"
+              width="7.1875vw"
+              height="2.7604vw"
+              viewBox="0 0 138 53"
+              fill="none"
+            >
+              <g filter="url(#filter0_d_3191_21)">
+                <path
+                  d="M9.03716 9.29395L28.8293 43.9769L108.462 43.9768L128.486 9.5618"
+                  stroke="#25FEC7"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_3191_21"
+                  x="0.0369873"
+                  y="0.293945"
+                  width="137.45"
+                  height="52.6826"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="4" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0.0941176 0 0 0 0 0.972549 0 0 0 0 0.752941 0 0 0 1 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_3191_21"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_3191_21"
+                    result="shape"
+                  />
+                </filter>
+              </defs>
+            </svg>
+            <svg
+              id="bar2"
+              class="bar2"
+              style="display: none;"
+              xmlns="http://www.w3.org/2000/svg"
+              width="9.2708vw"
+              height="4.5833vw"
+              viewBox="0 0 178 88"
+              fill="none"
+            >
+              <g filter="url(#filter0_d_3191_6114)">
+                <path
+                  d="M168.511 10.1471L128.462 78.9772L48.8295 78.9772L9.24517 9.61133"
+                  stroke="#25FEC7"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_3191_6114"
+                  x="0.244995"
+                  y="0.611328"
+                  width="177.266"
+                  height="87.3657"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="4" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0.0941176 0 0 0 0 0.972549 0 0 0 0 0.752941 0 0 0 1 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_3191_6114"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_3191_6114"
+                    result="shape"
+                  />
+                </filter>
+              </defs>
+            </svg>
+            <svg
+              id="bar3"
+              class="bar3"
+              style="display: none"
+              xmlns="http://www.w3.org/2000/svg"
+              width="9.2708vw"
+              height="6.0417vw"
+              viewBox="0 0 178 116"
+              fill="none"
+            >
+              <g filter="url(#filter0_d_3191_6140)">
+                <path
+                  d="M26.4996 9.00063C11.041 35.4041 9.24527 37.6112 9.24527 37.6112L48.8296 106.977L128.462 106.977L168.511 38.1469C168.511 38.1469 167.14 35.6127 151.5 9"
+                  stroke="#25FEC7"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_3191_6140"
+                  x="0.0371094"
+                  y="0"
+                  width="177.62"
+                  height="115.977"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="4" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0.0941176 0 0 0 0 0.972549 0 0 0 0 0.752941 0 0 0 1 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_3191_6140"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_3191_6140"
+                    result="shape"
+                  />
+                </filter>
+              </defs>
+            </svg>
+            <svg
+              id="bar4"
+              class="bar4"
+              style="display: none"
+              xmlns="http://www.w3.org/2000/svg"
+              width="9.1667vw"
+              height="8.0208vw"
+              viewBox="0 0 176 154"
+              fill="none"
+            >
+              <g filter="url(#filter0_d_3191_6166)">
+                <path
+                  d="M165.566 75.7648L166.356 77.1431L126.887 144.977L48.4104 144.977L9.40086 76.6183L10.2032 75.2524L13.2235 70.11C15.7897 65.7404 19.3724 59.6393 23.4381 52.713C31.4682 39.033 41.3831 22.1338 49.0733 8.99988L126.928 8.99999C134.702 22.2345 144.556 39.2648 152.504 53.0526C156.528 60.0321 160.062 66.1801 162.591 70.5831C163.856 72.7846 164.869 74.5499 165.566 75.7648Z"
+                  stroke="#25FEC7"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  shape-rendering="crispEdges"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_3191_6166"
+                  x="0.245361"
+                  y="0"
+                  width="175.265"
+                  height="153.977"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="4" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0.0941176 0 0 0 0 0.972549 0 0 0 0 0.752941 0 0 0 1 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_3191_6166"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_3191_6166"
+                    result="shape"
+                  />
+                </filter>
+              </defs>
+            </svg>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="8.3333vw"
+            height="7.2396vw"
+            viewBox="0 0 160 139"
+            fill="none"
+          >
+            <path
+              d="M119.927 1.04839L159.511 70.1463L119.463 138.976L39.8299 138.708L0.245573 69.6105L40.294 0.780492L119.927 1.04839Z"
+              fill="url(#paint0_radial_3191_7)"
+            />
+            <path
+              d="M40.581 1.28146L119.636 1.54742L158.934 70.1444L119.176 138.475L40.1203 138.209L0.822919 69.6125L40.581 1.28146Z"
+              stroke="white"
+              stroke-opacity="0.24"
+            />
+            <defs>
+              <radialGradient
+                id="paint0_radial_3191_7"
+                cx="0"
+                cy="0"
+                r="1"
+                gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(80.2544 108) rotate(-90) scale(95.5)"
+              >
+                <stop stop-color="#02B688" stop-opacity="0.42" />
+                <stop offset="1" stop-color="#02B688" stop-opacity="0" />
+              </radialGradient>
+            </defs>
+          </svg>
+        </div>
+        <div class="rightSide">
+          <div class="nameSide">
+            <h2 class="ServerAndDescriptionTextsXD" id="ServerAndDescriptionTextsXD"></h2>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="10.7292vw"
+              height="2.2917vw"
+              viewBox="0 0 206 44"
+              fill="none"
+            >
+              <path
+                d="M1.00006 1L23.5001 43.5H204.5L181.5 1H1.00006Z"
+                fill="url(#paint0_linear_3191_26)"
+                stroke="url(#paint1_radial_3191_26)"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_3191_26"
+                  x1="5.00006"
+                  y1="22"
+                  x2="211"
+                  y2="22"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#04A279" stop-opacity="0.46" />
+                  <stop offset="1" stop-color="#02B688" stop-opacity="0" />
+                </linearGradient>
+                <radialGradient
+                  id="paint1_radial_3191_26"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(105.75 22.25) rotate(-16.3672) scale(144.61 29.3362)"
+                >
+                  <stop stop-color="#25FEC7" />
+                  <stop offset="1" stop-color="#25FEC7" stop-opacity="0" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </div>
+          <div class="KarmaCoolProgressBox">
+            <div class="KarmaCoolProgressList">
+              <div id="progress1" class="progress"></div>
+              <div id="progress2" class="progress"></div>
+              <div id="progress3" class="progress"></div>
+              <div id="progress4" class="progress"></div>
+              <div id="progress5" class="progress"></div>
+              <div id="progress6" class="progress"></div>
+              <div id="progress7" class="progress"></div>
+              <div id="progress8" class="progress"></div>
+              <div id="progress9" class="progress"></div>
+              <div id="progress10" class="progress"></div>
+              <div id="progress11" class="progress"></div>
+              <div id="progress12" class="progress"></div>
+              <div id="progress13" class="progress"></div>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="13.5938vw"
+              height="2.0833vw"
+              viewBox="0 0 261 40"
+              fill="none"
+            >
+              <path
+                d="M11.5001 20L6.10352e-05 40H261V0H6.10352e-05L11.5001 20Z"
+                fill="url(#paint0_linear_3191_29)"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_3191_29"
+                  x1="6.10352e-05"
+                  y1="20"
+                  x2="261"
+                  y2="20"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#169877" stop-opacity="0.3" />
+                  <stop offset="1" stop-color="#169877" stop-opacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <div class="nameSide">
+            <h2 class="ServerAndDescriptionTextsXD" id="ServerAndDescriptionTextsXD2"></h2>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="10.7292vw"
+              height="2.2917vw"
+              viewBox="0 0 206 44"
+              fill="none"
+            >
+              <path
+                d="M204.5 1L182 43.5H1.00006L24.0001 1H204.5Z"
+                fill="url(#paint0_linear_3191_23)"
+                stroke="url(#paint1_radial_3191_23)"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_3191_23"
+                  x1="205"
+                  y1="22"
+                  x2="1.00007"
+                  y2="22"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#02B688" stop-opacity="0" />
+                  <stop offset="1" stop-color="#04A279" stop-opacity="0.46" />
+                </linearGradient>
+                <radialGradient
+                  id="paint1_radial_3191_23"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(155 37) rotate(-172.802) scale(195.541 39.6682)"
+                >
+                  <stop stop-color="#25FEC7" />
+                  <stop offset="1" stop-color="#25FEC7" stop-opacity="0" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ChatGPTHelpedMe"></div>
+  </body>
+</html>

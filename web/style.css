@@ -1,0 +1,205 @@
+@font-face {
+  font-family: GilroySBold;
+  src: url(./fonts/Gilroy-SemiBold.ttf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GilroyMedium;
+  src: url(./fonts/Gilroy-Medium.ttf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GilroyRegular;
+  src: url(./fonts/Gilroy-Regular.ttf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GilroyBold;
+  src: url(./fonts/Gilroy-Bold.ttf);
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+.ChatGPTHelpedMe {
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      0deg,
+      rgba(14, 21, 26, 0.9) 0%,
+      rgba(14, 21, 26, 0) 45.51%
+    ),
+    radial-gradient(
+      84.12% 54.39% at 92.06% 100%,
+      rgba(14, 21, 26, 0.72) 0%,
+      rgba(14, 21, 26, 0) 92.02%
+    ),
+    radial-gradient(
+      248.04% 36.18% at 89.14% -4.72%,
+      rgba(14, 21, 26, 0.9) 0%,
+      rgba(14, 21, 26, 0) 92.02%
+    ),
+    radial-gradient(
+      153.24% 24.44% at 50% 0%,
+      rgba(14, 21, 26, 0.9) 0%,
+      rgba(14, 21, 26, 0) 92.02%
+    ),
+    linear-gradient(0deg, #5ccbcb 0%, #5ccbcb 100%),
+    linear-gradient(0deg, #62f8dd 0%, #62f8dd 100%), rgba(0, 0, 0, 0.58);
+  background-blend-mode: normal, normal, normal, normal, overlay, overlay,
+    normal;
+  mix-blend-mode: multiply;
+  background-color: transparent;
+}
+
+.MenuBoxWithoutHands {
+  z-index: 99;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5208vw;
+  left: 3.125vw;
+  bottom: 3.125vw;
+  gap: 2vw;
+}
+
+.FuckingButtonListBuddy {
+  gap: 0.9896vw;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.button svg {
+  width: 3.4375vw;
+  height: 3.8542vw;
+  transition: 200ms ease-in-out;
+  opacity: 0.5;
+}
+
+.button:hover svg {
+  opacity: 1;
+}
+
+.buttonLogo {
+  z-index: 45;
+  position: absolute;
+  /* left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+  width: 2.0833vw;
+  height: 1.8229vw;
+  object-fit: contain;
+  object-position: center;
+}
+
+.bottomSide {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.KarmaCoolLoadingBox {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar {
+  z-index: 3;
+  position: absolute;
+  bottom: -0.75vw;
+}
+
+.Logo {
+  object-position: center;
+  position: absolute;
+  z-index: 4;
+  width: 3.6458vw;
+  height: 3.6458vw;
+  object-fit: contain;
+}
+
+.bar1, .bar2, .bar3, .bar4 {
+  margin-bottom: 4.5%;
+}
+
+.rightSide {
+  position: absolute;
+  left: 3vw;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3385vw;
+}
+
+.nameSide {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ServerAndDescriptionTextsXD {
+  color: #fff;
+  font-family: GilroySBold;
+  font-size: 0.6719vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+}
+
+.KarmaCoolProgressBox {
+  position: relative;
+  display: flex;
+  margin-left: 5.5vw !important;
+  align-items: center;
+}
+
+.KarmaCoolProgressList {
+  padding-left: 1.0417vw;
+  position: absolute;
+  display: flex;
+  gap: 0.2604vw;
+}
+
+.progress {
+  width: 0.6771vw;
+  height: 1.0938vw;
+  border-radius: 0.0521vw;
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.OHHHYEAHHHGOODPROGRESSBAR {
+  border-radius: 0.0521vw;
+  background: linear-gradient(
+    180deg,
+    #54ffcf 0%,
+    rgba(92, 255, 209, 0) 135.71%
+  ) !important;
+}
